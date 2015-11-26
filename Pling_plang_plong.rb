@@ -5,14 +5,14 @@
 #up to 105
 for i in 1..105
   if (i % 3 == 0) && (i % 5 == 0) && (i % 7 == 0)
-    puts "plingPlangPlong"
+    print "PlingPlangPlong"
   elsif (i % 3 == 0) && (i % 5 == 0)
-    puts "PlingPlang"
+    print "PlingPlang, "
   elsif i %  5 == 0
-    puts "plang"
+    print "Plang, "
   elsif i % 3 == 0
-    puts "pling"
+    print "Pling, "
   else
-    puts i
+    print "#{i.to_s}, "
   end
 end
